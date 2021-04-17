@@ -1,0 +1,37 @@
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 300vh;
+}
+
+ul {
+  outline: 1px dashed red;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+li {
+  outline: 1px dotted orange;
+  padding: 10px 20px;
+}
+
+a:link, a:visited {
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.fixed {
+position: fixed;
+top:0;
+width: 100%;
+}
